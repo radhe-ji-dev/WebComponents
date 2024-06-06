@@ -1,0 +1,41 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.card {
+  width: 200px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+  border-radius: 20px;
+  border-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center; /* Center the content inside the card */
+}
+
+.container {
+  padding: 16px;
+}
+.contactbtn {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contactbtn:hover {
+  background-color: #005f73;
+}
+.avatar {
+  width: 10rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin: 10px auto;
+}
