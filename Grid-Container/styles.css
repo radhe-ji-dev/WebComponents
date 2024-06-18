@@ -1,0 +1,23 @@
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    50px
+  ); /* 3 columns with each column being 50px wide */
+  gap: 10px; /* Adjust the gap between cells as needed */
+  padding: 10px;
+}
+
+/* Style for grid items */
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  width: 50px; /* Each cell is 50px wide */
+  height: 50px; /* Each cell is 50px high */
+  font-size: 24px;
+  font-weight: bold;
+}
